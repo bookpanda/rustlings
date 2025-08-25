@@ -10,6 +10,14 @@ fn array_and_vec() -> ([i32; 4], Vec<i32>) {
 
 fn main() {
     // You can optionally experiment here.
+    let s = String::from("hi");
+    // let a = s[..];
+    let b = &s[..];
+    let c = "addd";
+    // let d = *"a";
+    let e = &"a";
+    // let f = c[1..4];
+    let g = &c[1..4];
 }
 
 #[cfg(test)]
